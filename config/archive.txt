@@ -1,0 +1,26 @@
+ 
+        <div class="portfolioItem" data-overlay-content="portfolio-content-euniverse">
+          <a href=""><img src="assets/EUniverse.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Logo design EUNIVERSE</h4>
+          </div> 
+        </div> 
+        <div class="portfolioItem" data-overlay-content="portfolio-content-revoir-paris">
+          <a href=""><img src="assets/RevoirParisTile.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Branding Revoir Paris</h4>
+          </div> 
+        </div> 
+        <div class="portfolioItem" data-overlay-content="portfolio-content-revoir-paris">
+          <a href=""><img src="assets/FutureMobilityTile.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Branding Revoir Paris</h4>
+          </div> 
+        </div> 
+        <div class="portfolioRowDescription">          
+          <h2 class="portfolioItemHeaderTitle">Graphic design</h2>
+          <p>Strong graphic design creates clarity, recognition, and trust. I develop visual solutions that translate ideas into clear, compelling communication—helping brands
+            stand out and connect with their audience across print and digital platforms.<br>
+            From brand identities to campaigns and visual assets, my work focuses on consistency, usability, and impact. Each project is approached strategically,
+            balancing creativity with purpose to deliver design that supports your business goals and strengthens your brand presence.</p>
+        </div>

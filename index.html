@@ -1,0 +1,246 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <title>Yann / A Development studio</title>
+    <link rel="stylesheet" href="styling/main.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ehv4evi.css">
+    <script src="scripts/cookie-banner.js" defer></script>
+    <script src="scripts/portfolio-wrap.js" defer></script>
+    <script src="scripts/portfolio-overlay.js" defer></script>
+    <script src="scripts/content-loader.js" defer></script>
+  </head>
+  <body>    
+
+    <section class="featuredSection"> 
+      <img src="assets/Logo-alt-zwart.png" alt=""> 
+      <div class="featuredMenu">
+        <a href="#portfolioNavigate" class="featuredMenuItem">Portfolio</a>
+        <a href="#aboutNavigate" class="featuredMenuItem">About us</a>
+        <a href="#contactNavigate" class="featuredMenuItem">Contact</a>
+      </div>
+    </section>   
+
+    <section class="portfolio">
+      
+      <div class="portfolioRow" id="portfolioNavigate">  
+        <div class="portfolioRowDescription">          
+          <h2 class="portfolioItemHeaderTitle">Design & engineering</h2>
+          <p>Design engineering for metal structures combines technical precision with architectural clarity.
+              From bike shelters and canopies to custom outdoor installations, it involves translating functional requirements load, durability, safety, and manufacturability into elegant, efficient structures.
+              Through careful material selection, structural analysis, and detailing, metal structures are engineered to withstand environmental stresses while remaining lightweight, modular, and easy to fabricate.
+              The result is infrastructure that is robust, cost-effective, and visually integrated into its surroundings, balancing performance with design intent.</p>
+        </div>          
+        <div class="portfolioItem" data-overlay-content="portfolio-content-spartacus">
+          <a href=""><img src="assets/tileSpartacus.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Shelter Spartacus Hasselt</h4>
+          </div> 
+        </div>
+        <div class="portfolioItem" data-overlay-content="portfolio-content-busleyden">
+          <a href=""><img src="assets/tileBusleyden.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Garden structure Hof van Busleyden</h4>
+          </div> 
+        </div> 
+        <div class="portfolioItem" data-overlay-content="portfolio-content-vilvoorde">
+          <a href=""><img src="assets/tileVilvoorde.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Bike shelter Vilvoorde</h4>
+          </div> 
+        </div> 
+        <div class="portfolioItem" data-overlay-content="portfolio-content-euniverse">
+          <a href=""><img src="assets/PrototypeDummy.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>3D print arca swiss adapter</h4>
+          </div> 
+        </div> 
+        <div class="portfolioItem" data-overlay-content="portfolio-content-revoir-paris">
+          <a href=""><img src="assets/DummyPrint.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Prototyping</h4>
+          </div> 
+        </div> 
+        <div class="portfolioRowDescription">          
+          <h2 class="portfolioItemHeaderTitle">Prototyping & development</h2>
+          <p>Strong graphic design creates clarity, recognition, and trust. I develop visual solutions that translate ideas into clear, compelling communication—helping brands
+            stand out and connect with their audience across print and digital platforms.<br>
+            From brand identities to campaigns and visual assets, my work focuses on consistency, usability, and impact. Each project is approached strategically,
+            balancing creativity with purpose to deliver design that supports your business goals and strengthens your brand presence.</p>
+        </div>
+        <div class="portfolioItem" data-overlay-content="portfolio-content-frabrunni">
+          <a href=""><img src="assets/SolidworksTemp.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>prototyping to production</h4>
+          </div> 
+        </div>
+        <div class="portfolioItem" data-overlay-content="portfolio-content-frabrunni">
+          <a href=""><img src="assets/UnrealDummy.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Unreal studio enviroments</h4>
+          </div> 
+        </div> 
+        <div class="portfolioRowDescription">          
+          <h2 class="portfolioItemHeaderTitle">Visualisation & rendering</h2>
+          <p>Strong graphic design creates clarity, recognition, and trust. I develop visual solutions that translate ideas into clear, compelling communication—helping brands
+            stand out and connect with their audience across print and digital platforms.<br>
+            From brand identities to campaigns and visual assets, my work focuses on consistency, usability, and impact. Each project is approached strategically,
+            balancing creativity with purpose to deliver design that supports your business goals and strengthens your brand presence.</p>
+        </div>
+        <div class="portfolioItem" data-overlay-content="portfolio-content-euniverse">
+          <a href=""><img src="assets/BikehotelRender.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Product visualisation</h4>
+          </div> 
+        </div> 
+        <div class="portfolioItem" data-overlay-content="portfolio-content-ebike-locker">
+          <a href=""><img src="assets/RenderEbikelocker.jpg" alt=""></a>
+          <div class="portfolioItemSubTitle">
+            <h4>Tecno Art E-bike locker family</h4>
+          </div> 
+        </div>
+      </div>
+    </section> 
+
+    <section class="portfolioOverlay" id="portfolioOverlay" aria-hidden="true">
+      <div class="portfolioOverlayPanel" role="dialog" aria-modal="true" aria-labelledby="portfolioOverlayTitle">
+        <button type="button" class="portfolioOverlayClose" id="portfolioOverlayClose" aria-label="Close">Close</button>
+        <h2 class="portfolioOverlayTitle" id="portfolioOverlayTitle">Project title</h2>
+        <div class="portfolioOverlayContent" id="portfolioOverlayContent">
+        </div>
+      </div>
+    </section>
+
+    <template id="portfolio-content-spartacus">
+      <div class="portolioContentContainer">
+        <img src="assets/SpartacusFeatured1.jpg" alt="">
+        <img src="assets/SpartacusFeatured2.jpg" alt="">
+        <p>This bus stop canopy was designed by our studio for Tecno Art and is located at Hasselt Station as part of the Spartacus mobility project.
+          <br><br>
+          The design originated from a concise client brief, with only a limited set of requirements and an initial design direction. From this starting point, our studio developed the project through a complete design and realization process. The assignment evolved from early concept development into a fully engineered solution, followed by production coordination and on-site installation.
+          <br><br>
+          The resulting canopy combines functional clarity with a strong architectural presence, responding to the infrastructural context of the station while aligning with the broader ambitions of the Spartacus project. The project illustrates our ability to translate minimal input into a coherent, buildable design and to guide it seamlessly from concept to completion.</p>
+      </div>      
+    </template>
+    <template id="portfolio-content-busleyden">
+      <p>Add content for Garden structure Hof van Busleyden.</p>
+    </template>
+    <template id="portfolio-content-vilvoorde">
+      <p>Add content for Bike shelter Vilvoorde.</p>
+    </template>
+    <template id="portfolio-content-euniverse">
+      <p>Add content for Logo design EUNIVERSE.</p>
+    </template>
+    <template id="portfolio-content-revoir-paris">
+      <p>Add content for Branding Revoir Paris.</p>
+    </template>
+    <template id="portfolio-content-frabrunni">
+      <p>Add content for Logo and prints.</p>
+    </template>
+    <template id="portfolio-content-ebike-locker">
+      <p>Add content for Tecno Art E-bike locker family.</p>
+    </template>
+
+    <section class="aboutUsSection" id="aboutNavigate">
+
+      <div class="aboutRow">
+        <div class="column">
+          <h1 id="aboutTitle">About us</h1>
+        </div>
+
+        <div class="column">
+          <p id="aboutBody">Founded in 2017, our studio is an independent industrial design practice focused on creating thoughtful, functional and manufacturable products. We operate at the intersection of design and engineering, supporting projects from early concept development through to tangible, production-ready outcomes.
+          <br><br>
+          Our expertise covers the full design process, including concept design, engineering, prototyping and high-quality visualization. We believe strong products are the result of a deep understanding of users, materials and manufacturing processes. By combining creative thinking with technical rigor, we deliver solutions that are both innovative and practical.
+          <br><br>
+          In addition to project-based design work, we support companies in optimizing their design processes within an industrial design environment. This includes advising on workflows, efficiency and scalability, helping teams develop better products through more structured and effective development trajectories.
+          <br><br>
+          We collaborate with clients who value clarity, quality and long-term thinking, and who see design as a strategic asset rather than a purely aesthetic exercise.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="contactSection" id="contactNavigate">
+      <div class="contactRow">
+        <div class="contactColumn contactColumnText">
+          <h2 id="contactTitle">Let's talk</h2>
+          <p id="contactIntro">Have a project in mind or just want to explore ideas? I would love to hear about it. Share a few details and we can set up a quick chat.</p>
+          <div class="contactDetails">
+            <p><strong id="contactCompany">Yann comm. v. - BE0682.635.916</strong> <br></p>
+            <p id="contactAddress">Kapellensteenweg 341, 2920 Kalmthout, Belgium</p>
+            <p id="contactPhone">+32 4 87 85 34 20</p>
+            <p><a id="contactEmail" href="mailto:info@yann.studio">info@yann.studio</a></p>
+          </div>
+        </div>
+        <div class="contactColumn contactColumnForm">
+          <form class="contactForm" id="contactForm" action="https://formspree.io/f/meeejdaa" method="post">
+            <input type="hidden" name="_subject" value="New contact from yann.studio">
+            <label for="contactName">Name</label>
+            <input type="text" id="contactName" name="name" autocomplete="name" required>
+            <label for="contactEmail">Email</label>
+            <input type="email" id="contactEmail" name="email" autocomplete="email" required>
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="5" required></textarea>
+            <div class="contactHoneypot" aria-hidden="true">
+              <label for="contactWebsite">Website</label>
+              <input type="text" id="contactWebsite" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
+            <p class="contactFormStatus" id="contactFormStatus" role="status" aria-live="polite"></p>
+            <button type="submit">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="cookieBanner" id="cookieBanner">
+      <p>
+        We use cookies to improve your experience.
+        <a href="privacy.html">Privacy info</a>
+      </p>
+      <button type="button" class="cookieBannerButton" id="cookieBannerButton">Ok</button>
+    </div>
+    <script>
+      const contactForm = document.getElementById("contactForm");
+      const contactStatus = document.getElementById("contactFormStatus");
+
+      if (contactForm && contactStatus) {
+        contactForm.addEventListener("submit", async (event) => {
+          event.preventDefault();
+          contactStatus.textContent = "Sending your message...";
+          contactStatus.classList.add("is-visible");
+          contactStatus.classList.remove("is-error");
+
+          try {
+            const response = await fetch(contactForm.action, {
+              method: "POST",
+              body: new FormData(contactForm),
+              headers: {
+                "Accept": "application/json"
+              }
+            });
+
+            if (response.ok) {
+              contactStatus.textContent = "Thanks! Your message has been sent.";
+              contactForm.reset();
+              return;
+            }
+
+            const data = await response.json();
+            if (data && data.errors) {
+              contactStatus.textContent = data.errors.map((error) => error.message).join(" ");
+            } else {
+              contactStatus.textContent = "Oops! There was a problem sending your message.";
+            }
+            contactStatus.classList.add("is-error");
+          } catch (error) {
+            contactStatus.textContent = "Oops! There was a problem sending your message.";
+            contactStatus.classList.add("is-error");
+          }
+        });
+      }
+    </script>
+  </body>
+
+</html>
