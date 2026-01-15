@@ -1,6 +1,10 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: YannStudio/yannstudiowebsite
   branch: main
+  auth_endpoint: https://auth.decapcms.org/auth
+
+site_url: https://your-user.github.io/your-repo
 
 local_backend: true
 
